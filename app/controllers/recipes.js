@@ -7,3 +7,10 @@ exports.index = function(req, res){
     res.render('recipes/index', {recipes:recipes});
   });
 };
+
+exports.create = function(req,res){
+  Recipe.create(req.body, function(err, response){
+    console.log(response);
+    res.render('recipes/recipe', {recipe:response});
+  });
+};

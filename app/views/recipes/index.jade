@@ -1,18 +1,26 @@
-doctype html
-html
-  head
-    meta(charset='utf-8')
-    title Recipes
-    link(rel=stylesheet href='css/style.css')
-  body
-    .wrapper
+extends ../shared/template
+block content
+
+  #controls
+    #visibility
+      button#hide Hide Form
+      button#show Show Form
+
+    form(method='post', action='/recipes')
+      input(name='name', type='text', placeholder='Chicken Marrakesh', autofocus=true)
+      br
+      input(name='photo', type='text', placeholder='Image URL')
+      br
+      input(name='ingredients', type='text', placeholder='Chiken Breasts, Sweet Potatoes, Onion')
+      br
+      label Directions
+      br
+      textarea(name='directions')
+      button Add Recipe
+
+  .wrapper
       each recipe in recipes
-        section.recipe
-          img(src='#{recipe.img}' alt='food here')
-          h2= recipe.name
-          ul
-            each ingredient in recipe.ingredients
-                li= ingredient
-          h3 Directions
-            p= recipe.directions
+        include recipe
+
+block scripts
 

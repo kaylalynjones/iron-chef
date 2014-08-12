@@ -4,9 +4,64 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
 }
-
-body{
-  background-image: url(/img/node.png);
-  background-size: cover;
+body {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #eee;
+}
+h1 {
+  font-size: 50px;
+}
+nav ul {
+  font-size: 20px;
+}
+li {
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+}
+.wrapper {
+  width: 100%;
+  text-align: center;
+}
+#controls {
+  display: block;
+  width: 80%;
+  margin: 10px;
+  padding: 20px;
+}
+form {
+}
+#controls button {
+  height: 40px;
+  width: 100px;
+  margin: 10px;
+}
+input {
+  width: 300px;
+  display: inline-block;
+  font-size: 20px;
+  margin: 10px 20px;
 }
 
+textarea {
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+  font-size: 20px;
+  margin: 10px 20px;
+}
+div.recipe {
+  display: inline-block;
+  width: 30%;
+  height: 800px;
+  background-color: aliceblue;
+  margin: 20px;
+  padding: 40px;
+  display: inline-block;
+  vertical-align: top;
+}

@@ -4,7 +4,7 @@
 function Recipe(obj){
   this.name       = obj.name;
   this.img        = obj.img;
-  this.ingedients = obj.ingredients;
+  this.ingredients = obj.ingredients.split(',').map(function(i){return i.trim();});
   this.directions = obj.directions;
 }
 
@@ -14,6 +14,11 @@ Object.defineProperty(Recipe, 'collection', {
 
 Recipe.all = function(cb){
   Recipe.collection.find().toArray(cb);
+};
+
+Recipe.create = function(obj, cb){
+  var recipe = new Recipe(obj);
+  Recipe.collection.save(recipe, cb);
 };
 
 module.exports = Recipe;
