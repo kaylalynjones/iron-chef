@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title Recipes
+    link(rel=stylesheet href='css/style.css')
+  body
+    .wrapper
+      each recipe in recipes
+        section.recipe
+          img(src='#{recipe.img}' alt='food here')
+          h2= recipe.name
+            each ingredient in ingredients
+              ul
+                li ingredients
+                li go here
+          h3 Directions
+            p= recipe.directions
+

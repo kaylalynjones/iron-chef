@@ -30,12 +30,12 @@ describe('Recipe', function(){
     });
   });
 
- // describe('.all', function(){
-   // it('should get all the recipes', function(done){
-     // Recipe.all(function(err, recipes){
-       // expect(recipes).to.have.length(4);
-       // done();
-     // });
-   // });
- // });
+  describe('.all', function(){
+    it('should get all the recipes', function(done){
+      Recipe.all(function(err, recipes){
+        expect(recipes).to.have.length(4);
+        done();
+      });
+    });
+  });
 });

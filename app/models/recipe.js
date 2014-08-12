@@ -12,8 +12,8 @@ Object.defineProperty(Recipe, 'collection', {
   get: function(){return global.mongodb.collection('recipes');}
 });
 
-//Person.all = function(cb){
-  //Person.collection.find().toArray(cb);
-//};
+Recipe.all = function(cb){
+  Recipe.collection.find().toArray(cb);
+};
 
 module.exports = Recipe;
