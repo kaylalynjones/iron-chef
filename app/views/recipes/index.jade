@@ -10,10 +10,9 @@ html
         section.recipe
           img(src='#{recipe.img}' alt='food here')
           h2= recipe.name
-            each ingredient in ingredients
-              ul
-                li ingredients
-                li go here
+          ul
+            each ingredient in recipe.ingredients
+                li= ingredient
           h3 Directions
             p= recipe.directions
 
