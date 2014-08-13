@@ -49,13 +49,15 @@ a:visited {
   height: 40px;
   width: 120px;
   margin: 10px;
+  background-color: #fff;
+  border: 1px outset #eee;
   letter-spacing: 1px;
-  color: dimgrey;
+  color: indianred;
   font-size: 16px;
 }
 
 #visibility button:hover, #controls button:hover {
-  background-color: darkseagreen;
+  background-color: rgba(250, 198, 198, 0.71);
   color: white;
   font-size: 16px;
 }
@@ -88,6 +90,7 @@ div.recipe {
   vertical-align: top;
   overflow: scroll;
   text-align: left;
+  position: relative;
 }
 div.recipe img {
   display: block;
@@ -96,4 +99,9 @@ div.recipe img {
 div > p {
   padding: 10px;
   line-height: 30px;
+}
+div.recipe button.deleteButton{
+  position: absolute;
+  right: 30px;
+  top:45px;
 }
