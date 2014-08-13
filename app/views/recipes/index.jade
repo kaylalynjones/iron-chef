@@ -1,24 +1,23 @@
 extends ../shared/template
 block content
 
+  #visibility
+    button#hide Hide Form
+    button#show Show Form
   #controls
-    #visibility
-      button#hide Hide Form
-      button#show Show Form
 
     form(method='post', action='/recipes')
       input(name='name', type='text', placeholder='Chicken Marrakesh', autofocus=true)
       br
       input(name='photo', type='text', placeholder='Image URL')
       br
-      input(name='ingredients', type='text', placeholder='Chiken Breasts, Sweet Potatoes, Onion')
+      input(name='ingredients', type='text', placeholder='Chicken, Tomato, Onion')
       br
-      label Directions
       br
-      textarea(name='directions')
+      textarea(name='directions', placeholder='Directions:')
       button Add Recipe
 
-  .wrapper
+  #recipes
       each recipe in recipes
         include recipe
 

@@ -25,10 +25,10 @@
   }
 
   function hide(){
-    $('form').fadeOut(1000);
+    $('#controls').slideUp(700);
   }
   function show(){
-    $('form').fadeIn(1000);
+    $('#controls').slideDown(700);
   }
 })();
 

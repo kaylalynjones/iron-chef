@@ -2,21 +2,26 @@
 
 *{
   font-family: 'Open Sans', sans-serif;
-  font-size: 13px;
+  font-size: 1em;
 }
 body {
   width: 100%;
   margin: 0 auto;
-  background-color: #eee;
 }
 h1 {
-  font-size: 50px;
+  font-size: 3em;
+  text-align: center;
+  background-color: rgba(198, 242, 178, 0.54);
+  margin: 0;
+  letter-spacing: 1px;
+  color: indianred;
 }
-nav ul {
-  font-size: 20px;
+nav {
+  display: none;
 }
+
 li {
-  text-decoration: none;
+  list-style: none;
 }
 a {
   text-decoration: none;
@@ -28,18 +33,34 @@ a:visited {
   width: 100%;
   text-align: center;
 }
+#visibility {
+  background-color: salmon;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
 #controls {
   display: block;
   width: 80%;
-  margin: 10px;
   padding: 20px;
+  background-color: rgba(255, 245, 238, 0.43);
+  text-align: center;
+  margin: 10px auto;
 }
 form {
 }
-#controls button {
+#visibility button, #controls button {
   height: 40px;
-  width: 100px;
+  width: 120px;
   margin: 10px;
+  letter-spacing: 1px;
+  color: dimgrey;
+}
+
+#visibility button:hover, #controls button:hover {
+  background-color: darkseagreen;
+  color: white;
+  focus: none;
 }
 input {
   width: 300px;
@@ -51,17 +72,27 @@ input {
 textarea {
   width: 300px;
   height: 200px;
-  display: inline-block;
+  display: block;
   font-size: 20px;
-  margin: 10px 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+#recipes {
+  text-align: center;
 }
 div.recipe {
   display: inline-block;
   width: 30%;
   height: 800px;
-  background-color: aliceblue;
+  background-color: seashell;
   margin: 20px;
   padding: 40px;
   display: inline-block;
   vertical-align: top;
+  overflow: scroll;
+  text-align: left;
+}
+div.recipe img {
+  display: block;
+  margin: 0 auto;
 }
