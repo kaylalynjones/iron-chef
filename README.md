@@ -1,41 +1,30 @@
-## name of project
+## Iron Chef
 ### Code Badges
 [![Build Status](https://travis-ci.org/kaylalynjones/iron-chef.svg)](https://travis-ci.org/kaylalynjones/iron-chef)
 [![Coverage Status](https://coveralls.io/repos/kaylalynjones/iron-chef/badge.png)](https://coveralls.io/r/kaylalynjones/iron-chef)
 
 ### About
-write a description about your project
+Recipe Keeper
 
 ### Models
 ```
-Model 1
-prop-a
-prop-b
-.classMethod-c
-#instanceMethod-d
-```
+Recipe
+Constructor
+.all
+.create
 
-```
-Model 2
-prop-e
-prop-f
-.classMethod-g
-#instanceMethod-h
 ```
 
 ### Features
-- feature 1
-- feature 2
-- feature 3
+- Add a Recipe
+- Read a Recipe
+- Hide the form
 
 ### Running Tests
 ```bash
 $ npm install
 $ npm test
 ```
-
-### Contributors
-- [Chyld Medford](https://github.com/chyld)
 
 ### License
 [MIT](LICENSE)
