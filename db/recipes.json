@@ -3,27 +3,31 @@
   "name":"Honey and Spice Sautéed Pork Hand Tacos",
   "ingredients":["Boneless Pork-chops", "Honey", "Olive Oil", "Lemon Juice", "Soy Sauce", "Ground Chipotle", "Tortillas", "Lettuce", "Pico de Gayo", "Sour Cream"],
   "img":"http://images.media-allrecipes.com/userphotos/250x250/01/07/80/1078017.jpg",
-  "directions":"In a medium sized bowl combine the honey, olive oil, lemon juice, soy sauce and ground chipotle pepper and whisk to combine. Add the sliced pork to the marinade and let it sit for 15 minutes.Heat a skillet over high heat. Add the slices of pork to the skillet and cook for 1-2 minutes on each side, flipping with tongs in the middle of the cooking process. Once cooked, remove the pork to a plate and reserve.Arrange 8 corn tortillas on a platter. Sprinkle each with equal amounts of shredded lettuce and pico de gallo. Arrange a few pieces of pork on top of each taco, and top with sour cream or crema if desired."
+  "directions":"In a medium sized bowl combine the honey, olive oil, lemon juice, soy sauce and ground chipotle pepper and whisk to combine. Add the sliced pork to the marinade and let it sit for 15 minutes.Heat a skillet over high heat. Add the slices of pork to the skillet and cook for 1-2 minutes on each side, flipping with tongs in the middle of the cooking process. Once cooked, remove the pork to a plate and reserve.Arrange 8 corn tortillas on a platter. Sprinkle each with equal amounts of shredded lettuce and pico de gallo. Arrange a few pieces of pork on top of each taco, and top with sour cream or crema if desired.",
+  "created":"{$date:1}"
 }
 {
   "_id":{"$oid":"000000000000000000000002"},
   "name":"Spicy Garlic Lime Chicken",
   "ingredients":["Four Chicken Breasts", "Salt", "Pepper", "Garlic Powder", "Onion Powder", "Paprika", "Cayenne Pepper", "Thyme", "Parsley", "Butter", "Olive Oil", "Lime Juice"],
   "img":"http://images.media-allrecipes.com/userphotos/250x250/01/02/83/1028391.jpg",
-  "directions":"In a small bowl, mix together salt, black pepper, cayenne, paprika, 1/4 teaspoon garlic powder, onion powder, thyme and parsley. Sprinkle spice mixture generously on both sides of chicken breasts.Heat butter and olive oil in a large heavy skillet over medium heat. Saute chicken until golden brown, about 6 minutes on each side. Sprinkle with 2 teaspoons garlic powder and lime juice. Cook 5 minutes, stirring frequently to coat evenly with sauce."
+  "directions":"In a small bowl, mix together salt, black pepper, cayenne, paprika, 1/4 teaspoon garlic powder, onion powder, thyme and parsley. Sprinkle spice mixture generously on both sides of chicken breasts.Heat butter and olive oil in a large heavy skillet over medium heat. Saute chicken until golden brown, about 6 minutes on each side. Sprinkle with 2 teaspoons garlic powder and lime juice. Cook 5 minutes, stirring frequently to coat evenly with sauce.",
+  "created":"{$date:2}"
 }
 {
   "_id":{"$oid":"000000000000000000000003"},
   "name":"Grilled Asparagus",
   "ingredients":["One Pound of Asparagus", "Olive Oil", "Salt", "Pepper"],
   "img":"http://images.media-allrecipes.com/userphotos/250x250/01/01/42/1014212.jpg",
-  "directions":"Preheat grill for high heat.Lightly coat the asparagus spears with olive oil. Season with salt and pepper to taste.Grill over high heat for 2 to 3 minutes, or to desired tenderness."
+  "directions":"Preheat grill for high heat.Lightly coat the asparagus spears with olive oil. Season with salt and pepper to taste.Grill over high heat for 2 to 3 minutes, or to desired tenderness.",
+  "created":"{date:3}"
 }
 {
   "_id":{"$oid":"000000000000000000000004"},
   "name":"Elote (Mexican Corn on the Cob)",
   "ingredients":["Four Ears of Corn, shucked", "1/4 cup Mayonaise", "Butter", "Limes", "1/2 cup Grated Cojita Cheese"],
   "img":"http://images.media-allrecipes.com/userphotos/250x250/01/01/05/1010507.jpg",
-  "directions":"Preheat an outdoor grill for medium-high heatGrill corn until hot and lightly charred all over, 7 to 10 minutes, depending on the temperature of the grill. Roll the ears in melted butter, then spread evenly with mayonnaise. Sprinkle with cotija cheese and serve with a lime wedge."
+  "directions":"Preheat an outdoor grill for medium-high heatGrill corn until hot and lightly charred all over, 7 to 10 minutes, depending on the temperature of the grill. Roll the ears in melted butter, then spread evenly with mayonnaise. Sprinkle with cotija cheese and serve with a lime wedge.",
+  "created":"{date:4}"
 }
 

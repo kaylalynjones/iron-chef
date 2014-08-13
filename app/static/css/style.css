@@ -1,10 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
-*{
+body{
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
-}
-body {
   width: 100%;
   margin: 0 auto;
 }
@@ -47,20 +45,19 @@ a:visited {
   text-align: center;
   margin: 10px auto;
 }
-form {
-}
 #visibility button, #controls button {
   height: 40px;
   width: 120px;
   margin: 10px;
   letter-spacing: 1px;
   color: dimgrey;
+  font-size: 16px;
 }
 
 #visibility button:hover, #controls button:hover {
   background-color: darkseagreen;
   color: white;
-  focus: none;
+  font-size: 16px;
 }
 input {
   width: 300px;
@@ -95,4 +92,8 @@ div.recipe {
 div.recipe img {
   display: block;
   margin: 0 auto;
+}
+div > p {
+  padding: 10px;
+  line-height: 30px;
 }

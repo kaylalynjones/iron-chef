@@ -1,10 +1,11 @@
 'use strict';
 
 function Recipe(obj){
-  this.name       = obj.name;
-  this.img        = obj.img;
+  this.name        = obj.name;
+  this.img         = obj.img;
   this.ingredients = obj.ingredients.split(',').map(function(i){return i.trim();});
-  this.directions = obj.directions;
+  this.directions  = obj.directions;
+  this.created     = new Date();
 }
 
 Object.defineProperty(Recipe, 'collection', {
@@ -12,8 +13,9 @@ Object.defineProperty(Recipe, 'collection', {
 });
 
 Recipe.all = function(cb){
-  Recipe.collection.find().toArray(cb);
+  Recipe.collection.find().sort({created: -1}).toArray(cb);
 };
+
 
 Recipe.create = function(obj, cb){
   var recipe = new Recipe(obj);
