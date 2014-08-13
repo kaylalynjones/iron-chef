@@ -7,11 +7,19 @@
     $('form').submit(addRecipe);
     $('#recipes').on('click', '.deleteButton', delRecipe);
     $('#categories a').click(filterCategory);
+    $('#ingredients a').click(filterIngredient);
   });
+
+  function filterIngredient(e){
+    var ingredient = $(this).text();
+    $('.recipe').hide();
+    $('.recipe .ingredient a:contains('+ingredient+')').closest('.recipe').fadeIn();
+    e.preventDefault();
+  }
 
   function filterCategory(e){
     var category = $(this).text();
-    $('.recipe .category:contains('+category+')').closest('.recipe').show();
+    $('.recipe .category:contains('+category+')').closest('.recipe').fadeIn();
     $('.recipe .category:not(:contains('+category+'))').closest('.recipe').fadeOut();
     e.preventDefault();
   }

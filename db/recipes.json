@@ -10,7 +10,7 @@
 {
   "_id":{"$oid":"000000000000000000000002"},
   "name":"Spicy Garlic Lime Chicken",
-  "ingredients":["Four Chicken Breasts", "Salt", "Pepper", "Garlic Powder", "Onion Powder", "Paprika", "Cayenne Pepper", "Thyme", "Parsley", "Butter", "Olive Oil", "Lime Juice"],
+  "ingredients":["Chicken Breasts", "Salt", "Pepper", "Garlic Powder", "Onion Powder", "Paprika", "Cayenne Pepper", "Thyme", "Parsley", "Butter", "Olive Oil", "Lime Juice"],
   "img":"http://images.media-allrecipes.com/userphotos/250x250/01/02/83/1028391.jpg",
   "directions":"In a small bowl, mix together salt, black pepper, cayenne, paprika, 1/4 teaspoon garlic powder, onion powder, thyme and parsley. Sprinkle spice mixture generously on both sides of chicken breasts.Heat butter and olive oil in a large heavy skillet over medium heat. Saute chicken until golden brown, about 6 minutes on each side. Sprinkle with 2 teaspoons garlic powder and lime juice. Cook 5 minutes, stirring frequently to coat evenly with sauce.",
   "created":"{$date:2}",
@@ -19,7 +19,7 @@
 {
   "_id":{"$oid":"000000000000000000000003"},
   "name":"Grilled Asparagus",
-  "ingredients":["One Pound of Asparagus", "Olive Oil", "Salt", "Pepper"],
+  "ingredients":["Asparagus", "Olive Oil", "Salt", "Pepper"],
   "img":"http://images.media-allrecipes.com/userphotos/250x250/01/01/42/1014212.jpg",
   "directions":"Preheat grill for high heat.Lightly coat the asparagus spears with olive oil. Season with salt and pepper to taste.Grill over high heat for 2 to 3 minutes, or to desired tenderness.",
   "created":"{date:3}",
@@ -28,7 +28,7 @@
 {
   "_id":{"$oid":"000000000000000000000004"},
   "name":"Elote (Mexican Corn on the Cob)",
-  "ingredients":["Four Ears of Corn, shucked", "1/4 cup Mayonaise", "Butter", "Limes", "1/2 cup Grated Cojita Cheese"],
+  "ingredients":["Four Ears of Corn", "Mayonaise", "Butter", "Limes", "Grated Cojita Cheese"],
   "img":"http://images.media-allrecipes.com/userphotos/250x250/01/01/05/1010507.jpg",
   "directions":"Preheat an outdoor grill for medium-high heatGrill corn until hot and lightly charred all over, 7 to 10 minutes, depending on the temperature of the grill. Roll the ears in melted butter, then spread evenly with mayonnaise. Sprinkle with cotija cheese and serve with a lime wedge.",
   "created":"{date:4}",
@@ -38,7 +38,7 @@
 {
   "_id":{"$oid":"000000000000000000000005"},
   "name":"Strawberry Angel Food Cake",
-  "ingredients":["10 inch Angel Food Cake", "16 ounces Cream Cheese", "White Sugar", "Whipped Cream", "Quart of Strawberries", "Strawberry Jam"],
+  "ingredients":["10 inch Angel Food Cake", "Cream Cheese", "White Sugar", "Whipped Cream", "Strawberries", "Strawberry Jam"],
   "img":"http://images.media-allrecipes.com/userphotos/250x250/01/12/92/1129209.jpg",
   "directions":"Crumble the cake into a 9x13 inch dish. Beat the cream cheese and sugar in a medium bowl until light and fluffy. Fold in whipped topping. Mash the cake down with your hands and spread the cream cheese mixture over the cake.In a bowl, combine strawberries and glaze until strawberries are evenly coated. Spread over cream cheese layer. Chill until serving.",
   "created":"{date:5}",
@@ -47,45 +47,73 @@
 {
   "_id":{"$oid":"000000000000000000000006"},
   "name":"Carmel Snack Mix",
-  "ingredients":["Brown Sugar", "Corn Syrup", "Butter", "Pecans", "Rice Corn"],
-  "img":"http://images.media-allrecipes.com/userphotos/250x250/01/01/05/1010507.jpg",
-  "directions":"Preheat an outdoor grill for medium-high heatGrill corn until hot and lightly charred all over, 7 to 10 minutes, depending on the temperature of the grill. Roll the ears in melted butter, then spread evenly with mayonnaise. Sprinkle with cotija cheese and serve with a lime wedge.",
-  "created":"{date:5}",
-  "category":"dinner"
+  "ingredients":["Brown Sugar", "Corn Syrup", "Butter", "Pecans", "Rice Corn Chex"],
+  "img":"http://images.media-allrecipes.com/userphotos/250x250/00/00/85/8548.jpg",
+  "directions":"Preheat oven to 275 degrees F (135 degrees C). Spray a large roasting pan with non-stick cooking spray.In a medium-size microwave safe bowl, mix butter, white corn syrup and brown sugar. Place the mixture in the microwave and cook 2 minutes, or until butter melts.Place the cereal, pecans and almonds into the prepared roasting pan. Pour the melted butter mixture over the cereal and nuts and mix gently until the cereal and nuts are coated.Bake for 1 hour, stirring every 15 minutes.",
+  "created":"{date:10}",
+  "category":"snack"
 }
 {
   "_id":{"$oid":"000000000000000000000007"},
-  "name":"Elote (Mexican Corn on the Cob)",
-  "ingredients":["Four Ears of Corn, shucked", "1/4 cup Mayonaise", "Butter", "Limes", "1/2 cup Grated Cojita Cheese"],
-  "img":"http://images.media-allrecipes.com/userphotos/250x250/01/01/05/1010507.jpg",
-  "directions":"Preheat an outdoor grill for medium-high heatGrill corn until hot and lightly charred all over, 7 to 10 minutes, depending on the temperature of the grill. Roll the ears in melted butter, then spread evenly with mayonnaise. Sprinkle with cotija cheese and serve with a lime wedge.",
+  "name":"Busy Day Lunch Salad",
+  "ingredients":["Garbonzo Beans", "Tomato", "Red Onion", "Heart of Palm", "Mozzarella Cheese", "Thyme", "Olive Oil", "Salt", "Pepper"],
+  "img":"http://images.media-allrecipes.com/userphotos/250x250/00/95/57/955786.jpg",
+  "directions":"Toss the garbanzo beans, tomato, onion, heart of palm, mozzarella cheese, thyme, olive oil, and lemon juice together in a bowl until evenly mixed. Season with salt and pepper and retoss.",
   "created":"{date:6}",
-  "category":"dinner"
+  "category":"lunch"
 }
 {
   "_id":{"$oid":"000000000000000000000008"},
-  "name":"Elote (Mexican Corn on the Cob)",
-  "ingredients":["Four Ears of Corn, shucked", "1/4 cup Mayonaise", "Butter", "Limes", "1/2 cup Grated Cojita Cheese"],
-  "img":"http://images.media-allrecipes.com/userphotos/250x250/01/01/05/1010507.jpg",
-  "directions":"Preheat an outdoor grill for medium-high heatGrill corn until hot and lightly charred all over, 7 to 10 minutes, depending on the temperature of the grill. Roll the ears in melted butter, then spread evenly with mayonnaise. Sprinkle with cotija cheese and serve with a lime wedge.",
+  "name":"Sarah's Applesauce",
+  "ingredients":["Apples", "White Sugar", "Water", "Cinnamon"],
+  "img":"http://images.media-allrecipes.com/userphotos/250x250/00/02/58/25840.jpg",
+  "directions":"In a saucepan, combine apples, water, sugar, and cinnamon. Cover, and cook over medium heat for 15 to 20 minutes, or until apples are soft. Allow to cool, then mash with a fork or potato masher.",
   "created":"{date:7}",
-  "category":"dinner"
+  "category":"snack"
 }
 {
   "_id":{"$oid":"000000000000000000000009"},
-  "name":"Elote (Mexican Corn on the Cob)",
-  "ingredients":["Four Ears of Corn, shucked", "1/4 cup Mayonaise", "Butter", "Limes", "1/2 cup Grated Cojita Cheese"],
-  "img":"http://images.media-allrecipes.com/userphotos/250x250/01/01/05/1010507.jpg",
-  "directions":"Preheat an outdoor grill for medium-high heatGrill corn until hot and lightly charred all over, 7 to 10 minutes, depending on the temperature of the grill. Roll the ears in melted butter, then spread evenly with mayonnaise. Sprinkle with cotija cheese and serve with a lime wedge.",
+  "name":"Pecan French Toast",
+  "ingredients":["Eggs", "Orange Juice", "Milk", "White Sugar", "Nutmeg", "Vanilla Extract", "Butter", "Pecans"],
+  "img":"http://images.media-allrecipes.com/userphotos/250x250/00/00/08/868.jpg",
+  "directions":"In a large bowl, beat together eggs, orange juice, milk, sugar, nutmeg and vanilla extract. Place bread slices in a tightly spaced single layer in the bottom of a flat dish or baking pan. Pour milk mixture over bread, cover and refrigerate overnight, turning once.When ready to cook, preheat oven to 350 degrees F (175 degrees C).Coat a jelly roll pan, or rimmed baking sheet, evenly with the melted butter. Arrange soaked bread slices in a single layer on pan. Sprinkle evenly with orange peel and pecans.Bake in preheated oven until golden, 20 to 25 minutes. Check slices during last 10 minutes of baking time to avoid burning.",
   "created":"{date:8}",
-  "category":"dinner"
+  "category":"breakfast"
 }
 {
   "_id":{"$oid":"000000000000000000000010"},
-  "name":"Elote (Mexican Corn on the Cob)",
-  "ingredients":["Four Ears of Corn, shucked", "1/4 cup Mayonaise", "Butter", "Limes", "1/2 cup Grated Cojita Cheese"],
-  "img":"http://images.media-allrecipes.com/userphotos/250x250/01/01/05/1010507.jpg",
-  "directions":"Preheat an outdoor grill for medium-high heatGrill corn until hot and lightly charred all over, 7 to 10 minutes, depending on the temperature of the grill. Roll the ears in melted butter, then spread evenly with mayonnaise. Sprinkle with cotija cheese and serve with a lime wedge.",
+  "name":"Guacamole",
+  "ingredients":["Avocados", "Onion", "Tomato", "Limes", "Cilantro", "Cayenne", "Pomegrante", "Garlic"],
+  "img":"http://images.media-allrecipes.com/userphotos/250x250/00/81/17/811729.jpg",
+  "directions":"In a medium bowl, mash together the avocados, lime juice, and salt. Mix in onion, cilantro, tomatoes, and garlic. Stir in cayenne pepper. Refrigerate 1 hour for best flavor, or serve immediately.",
   "created":"{date:9}",
-  "category":"dinner"
+  "category":"snack"
 }
+{
+  "_id":{"$oid":"000000000000000000000010"},
+  "name":"Perfect Turkey",
+  "ingredients":["Whole Turkey, 18 pounds", "Onion", "Butter", "Carrots", "Celery", "Salt", "Thyme", "Dry White Wine", "Bay Leaf"],
+  "img":"http://images.media-allrecipes.com/userphotos/250x250/00/00/48/4814.jpg",
+  "directions":"Rub the turkey inside and out with the kosher salt. Place the bird in a large stock pot, and cover with cold water. Place in the refrigerator, and allow the turkey to soak in the salt and water mixture 12 hours, or overnight.Preheat oven to 350 degrees F (175 degrees C). Thoroughly rinse the turkey, and discard the brine mixture.Brush the turkey with 1/2 the melted butter. Place breast side down on a roasting rack in a shallow roasting pan. Stuff the turkey cavity with 1 onion, 1/2 the carrots, 1/2 the celery, 1 sprig of thyme, and the bay leaf. Scatter the remaining vegetables and thyme around the bottom of the roasting pan, and cover with the white wine.Roast uncovered 3 1/2 to 4 hours in the preheated oven, until the internal temperature of the thigh reaches 180 degrees F (85 degrees C). Carefully turn the turkey breast side up about 2/3 through the roasting time, and brush with the remaining butter. Allow the bird to stand about 30 minutes before carving.",
+  "created":"{date:9}",
+  "category":"holiday meals"
+}
+{
+  "_id":{"$oid":"000000000000000000000010"},
+  "name":"Rico's Passionate Pink Honey Lemonade",
+  "ingredients":["Water", "Strawberries", "White Sugar", "Brown Sugar", "Orange", "Lemon", "Tequila"],
+  "img":"http://images.media-allrecipes.com/userphotos/250x250/00/01/41/14189.jpg",
+  "directions":"In a saucepan, combine 1 cup water, strawberries, white sugar, brown sugar, and honey. Bring to a boil, and simmer 10 minutes, stirring occasionally. Cool to room temperature, cover, and chill.In a large pitcher, mix together water, lemon juice, tequila, and orange slices. Stir in cooled syrup; chill. Serve in a tall glass over ice.",
+  "created":"{date:9}",
+  "category":"alcoholic beverages"
+}
+{
+  "_id":{"$oid":"000000000000000000000010"},
+  "name":"Christmas Eggnog",
+  "ingredients":["Milk", "One Can Sweetened Condensed Milk", "Eggs", "Vanilla Extract", "Salt"],
+  "img":"http://images.media-allrecipes.com/userphotos/250x250/01/01/05/1010507.jpg",
+  "directions":"Whisk together the milk, sweetened condensed milk, eggs, vanilla extract, and salt in a large pitcher until well blended. Cover and refrigerate until chilled, at least 1 hour.",
+  "created":"{date:9}",
+  "category":"alcoholic beverages"
+}
+

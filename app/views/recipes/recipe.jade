@@ -3,8 +3,8 @@
   img(src='#{recipe.img}' alt='food here')
   h2= recipe.name
   h3.category= recipe.category
-  ul
+  ul#ingredients
     each ingredient in recipe.ingredients
-        li= ingredient
+        li.ingredient: a(href='javascript:void(0)')= ingredient
   h3 Directions
     p= recipe.directions
