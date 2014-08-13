@@ -2,6 +2,7 @@
   button.deleteButton X
   img(src='#{recipe.img}' alt='food here')
   h2= recipe.name
+  h3.category= recipe.category
   ul
     each ingredient in recipe.ingredients
         li= ingredient

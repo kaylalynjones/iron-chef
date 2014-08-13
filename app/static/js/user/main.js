@@ -6,7 +6,15 @@
     $('#show').click(show);
     $('form').submit(addRecipe);
     $('#recipes').on('click', '.deleteButton', delRecipe);
+    $('#categories a').click(filterCategory);
   });
+
+  function filterCategory(e){
+    var category = $(this).text();
+    $('.recipe .category:contains('+category+')').closest('.recipe').show();
+    $('.recipe .category:not(:contains('+category+'))').closest('.recipe').fadeOut();
+    e.preventDefault();
+  }
 
   function delRecipe(){
     var id   = $(this).closest('.recipe').attr('data-recipe-id'),

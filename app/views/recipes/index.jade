@@ -7,6 +7,15 @@ block content
   #controls
 
     form(method='post', action='/recipes')
+      select(name='category')
+        option Breakfast
+        option Lunch
+        option Dinner
+        option Dessert
+        option Holiday Meals
+        option Alcoholic Beverages
+        option Snacks
+      br
       input(name='name', type='text', placeholder='Chicken Marrakesh', autofocus=true)
       br
       input(name='img', type='text', placeholder='Image URL')
@@ -16,6 +25,15 @@ block content
       br
       textarea(name='directions', placeholder='Directions:')
       button Add Recipe
+
+    ul#categories
+      li: a(href="#") Breakfast
+      li: a(href="#") Lunch
+      li: a(href="#") Dinner
+      li: a(href="#") Dessert
+      li: a(href="#") Holiday Meals
+      li: a(href="#") Alcoholic Beverages
+      li: a(href="#") Snacks
 
   #recipes
       each recipe in recipes

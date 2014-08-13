@@ -54,6 +54,7 @@ a:visited {
   letter-spacing: 1px;
   color: indianred;
   font-size: 16px;
+  outline: 0;
 }
 
 #visibility button:hover, #controls button:hover {
@@ -66,6 +67,7 @@ input {
   display: inline-block;
   font-size: 20px;
   margin: 10px 20px;
+  
 }
 
 textarea {

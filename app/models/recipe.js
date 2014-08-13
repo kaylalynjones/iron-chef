@@ -7,6 +7,7 @@ function Recipe(obj){
   this.img         = (obj.img.length > 0) ? obj.img : '/img/recipe_book.jpg';
   this.ingredients = (obj.ingredients.length > 2) ? obj.ingredients.split(',').map(function(i){return i.trim();}) : ['Awesome', 'Sauce', 'Salt', 'Pepper', 'Garlic', 'Onion Powder', 'Cayenne'];
   this.directions  = obj.directions || 'Mix it all together, and eat it!';
+  this.category    = obj.category;
   this.created     = new Date();
 }
 

@@ -24,7 +24,7 @@ describe('Recipe', function(){
 
   describe('constructor', function(){
     it('should create a new Recipe object', function(){
-      var r = {name:'Roasted Zuchini', img:'http://images.media-allrecipes.com/userphotos/250x250/01/05/02/1050232.jpg', ingredients:'Zuchinis, Italian Style Salad Dressing', directions:'Slice zucchini into 1/4 inch slices. Toss in a bowl with Italian dressing.Place on a hot grill and grill about 4 to 5 minutes or until nice grill marks appear and the zucchini is slightly limp. Serve and enjoy.'};
+      var r = {name:'Roasted Zuchini', category:'dinner', img:'http://images.media-allrecipes.com/userphotos/250x250/01/05/02/1050232.jpg', ingredients:'Zuchinis, Italian Style Salad Dressing', directions:'Slice zucchini into 1/4 inch slices. Toss in a bowl with Italian dressing.Place on a hot grill and grill about 4 to 5 minutes or until nice grill marks appear and the zucchini is slightly limp. Serve and enjoy.'};
       r = new Recipe(r);
       expect(r).to.be.instanceof(Recipe);
     });
