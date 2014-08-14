@@ -8,13 +8,13 @@ block content
 
     form(method='post', action='/recipes')
       select(name='category')
-        option Breakfast
-        option Lunch
-        option Dinner
-        option Dessert
-        option Holiday Meals
-        option Alcoholic Beverages
-        option Snacks
+        option breakfast
+        option lunch
+        option dinner
+        option dessert
+        option holiday meals
+        option alcoholic beverages
+        option snacks
       br
       input(name='name', type='text', placeholder='Chicken Marrakesh', autofocus=true)
       br
@@ -27,13 +27,13 @@ block content
       button Add Recipe
 
     ul#categories
-      li: a(href="#") Breakfast
-      li: a(href="#") Lunch
-      li: a(href="#") Dinner
-      li: a(href="#") Dessert
-      li: a(href="#") Holiday Meals
-      li: a(href="#") Alcoholic Beverages
-      li: a(href="#") Snacks
+      li: a(href="#") breakfast
+      li: a(href="#") lunch
+      li: a(href="#") dinner
+      li: a(href="#") dessert
+      li: a(href="#") holiday meals
+      li: a(href="#") alcoholic beverages
+      li: a(href="#") snacks
 
   #recipes
       each recipe in recipes
